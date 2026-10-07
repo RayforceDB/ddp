@@ -28,7 +28,7 @@ jobs:
       - name: Stage public files
         run: |
           mkdir _site
-          cp index.html rayforce-cloud.pdf CNAME .nojekyll _site/
+          cp index.html rayforce-cloud.pdf social-preview.png CNAME .nojekyll _site/
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
